@@ -1,3 +1,5 @@
+package Nivell1EX1;
+
 import java.util.Objects;
 
 public class Month {

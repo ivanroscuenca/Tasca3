@@ -1,12 +1,12 @@
-import java.lang.reflect.Array;
+package Nivell1EX1;
+
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
-import java.util.Set;
 
 public class Main {
     public static void main(String[] args) {
-        //Afegeix 11 objectes Month (cadascun amb el seu atribut diferent) en un ArrayList,
+        //Afegeix 11 objectes Nivell1EX1.Month (cadascun amb el seu atribut diferent) en un ArrayList,
         // a excepció de l'objecte amb atribut "Agost".
         ArrayList<Month> llista = new ArrayList<Month>();
         llista.add(new Month("Gener"));
