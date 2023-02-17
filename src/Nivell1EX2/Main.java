@@ -1,12 +1,10 @@
 package Nivell1EX2;
 
-import java.util.ArrayList;
+import java.util.*;
 
 import Nivell1EX1.Month;
 
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Iterator;
 
 //Empra els objectes ListIterator per a llegir els elements de la primera llista
 //i inserir-los en la segona.
@@ -20,20 +18,34 @@ public class Main {
         llistaInt.add(8);
         llistaInt.add(88);
         llistaInt.add(99);
+        llistaInt.add(66);
         System.out.println(llistaInt);
 //Crea un segon List<Integer> i insereix a la segona llista els elements de la
 //primera en ordre invers.
-        ArrayList <Integer> llistaInt2 = new ArrayList<Integer>();
-        //recorrem un for al reves
-        for (int i = llistaInt.size() - 1; i >= 0; i--) {
-            // Afegim a la nova llista
-            llistaInt2.add(llistaInt.get(i));
+//        ArrayList <Integer> llistaInt2 = new ArrayList<Integer>();
+//        //recorrem un for al reves
+//        for (int i = llistaInt.size() - 1; i >= 0; i--) {
+//            // Afegim a la nova llista
+//            llistaInt2.add(llistaInt.get(i));
+//        }
+//        //imprimim nova llista
+//        System.out.println(llistaInt2);
+
+//Empra els objectes ListIterator per a llegir els elements de la primera llista
+//i inserir-los en la segona.
+        ArrayList<Integer>llistaInt2 = new ArrayList<Integer>();
+        //Creem listIterator de la mida de la llista1
+        int mida = llistaInt.size();
+        ListIterator<Integer> listiterator =llistaInt.listIterator(mida);
+        //recorrem llista primera de darrera a endavant i afegim a llista2
+        while(listiterator.hasPrevious()){
+            llistaInt2.add(listiterator.previous());  ;
         }
-        //imprimim nova llista
-        System.out.println(llistaInt2);
+        //imprimim llistaint2
+            System.out.println(llistaInt2);
+        }
     }
 
-}
 
 
 
