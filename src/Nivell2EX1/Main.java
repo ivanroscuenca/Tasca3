@@ -17,10 +17,12 @@ public class Main {
 
         System.out.println(llistaRestaurant);
 
-        // Ordenem HashSet utilitzant un ArrayList
+        // Ordenem HashSet utilitzant un ArrayList que creem
         List<Restaurant> llistaRestOrdenada = new ArrayList<Restaurant>(llistaRestaurant);
+        //ordenem la llista i creem un nou comparador
         Collections.sort(llistaRestOrdenada, new PuntuacioComparator());
 
+        //creem un iterator per recorrer els nostres resultats
         Iterator it=llistaRestOrdenada.iterator();
         while(it.hasNext()){
             Restaurant restaurant=(Restaurant)it.next();
