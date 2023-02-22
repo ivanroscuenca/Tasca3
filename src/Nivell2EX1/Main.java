@@ -1,6 +1,6 @@
 package Nivell2EX1;
 
-import java.util.HashSet;
+import java.util.*;
 
 //Crea una classe anomenada Restaurant amb dos atributs: nom(String) i puntuació(int).
 //Implementa els mètodes necessaris perquè no es puguin introduir objectes Restaurant
@@ -15,6 +15,17 @@ public class Main {
         llistaRestaurant.add(new Restaurant("Via Galicia",9));
         llistaRestaurant.add(new Restaurant("Via Galicia",8));
 
-        System.out.println(llistaRestaurant.toString());
+        System.out.println(llistaRestaurant);
+
+        // Ordenem HashSet utilitzant un ArrayList
+        List<Restaurant> llistaRestOrdenada = new ArrayList<Restaurant>(llistaRestaurant);
+        Collections.sort(llistaRestOrdenada, new PuntuacioComparator());
+
+        Iterator it=llistaRestOrdenada.iterator();
+        while(it.hasNext()){
+            Restaurant restaurant=(Restaurant)it.next();
+            System.out.println("Nom: " + restaurant.getNom()+", " + ", puntuació: "+restaurant.getPuntuacio());
+        }
+
     }
 }

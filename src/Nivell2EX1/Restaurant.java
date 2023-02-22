@@ -1,5 +1,6 @@
 package Nivell2EX1;
 
+import java.util.Comparator;
 import java.util.Objects;
 
 public class Restaurant {
@@ -12,6 +13,14 @@ public class Restaurant {
 
     public String getNom() {
         return nom;
+    }
+
+    public int getPuntuacio() {
+        return puntuacio;
+    }
+
+    public void setPuntuacio(int puntuacio) {
+        this.puntuacio = puntuacio;
     }
 
     @Override
@@ -44,3 +53,6 @@ public class Restaurant {
         this.puntuacio=puntuacio;
     }
 }
+//    Utilitzant la classe del programa anterior, crea la implementació necessària perquè els objectes
+//    de la classe Restaurant estiguin ordenats per nom i per puntuació en ordre ascendent.
+

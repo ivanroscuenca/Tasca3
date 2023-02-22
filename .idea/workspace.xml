@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee7064b5-ec16-43d9-920f-47f1ca377156" name="Changes" comment="Tasca 3 Nivell 1 Exercici 3">
-      <change afterPath="$PROJECT_DIR$/src/Nivell2EX1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Nivell2EX1/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Nivell2EX1/NameComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Nivell2EX1/PuntuacioComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Nivell2EX1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Nivell2EX1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Nivell2EX1/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Nivell2EX1/Restaurant.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677053611110</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Tasca 3 Nivell 1 Exercici 3">
+      <created>1677053790313</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677053790313</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
