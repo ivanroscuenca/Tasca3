@@ -22,7 +22,9 @@ public class Main {
         //ordenem la llista i creem un nou comparador
         Collections.sort(llistaRestOrdenada, new PuntuacioComparator());
 
-        //creem un iterator per recorrer els nostres resultats
+        //Ens sortirá primer els noms i desprès els punts més alts en cas de tindre el mateix nom
+
+        //creem un iterator per recòrrer els nostres resultats
         Iterator it=llistaRestOrdenada.iterator();
         while(it.hasNext()){
             Restaurant restaurant=(Restaurant)it.next();

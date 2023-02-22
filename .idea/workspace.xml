@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee7064b5-ec16-43d9-920f-47f1ca377156" name="Changes" comment="Tasca 3 Nivell 2 Exercici 2 complet">
+    <list default="true" id="ee7064b5-ec16-43d9-920f-47f1ca377156" name="Changes" comment="Tasca 3 Nivell 2 Exercici 2 complet update amb info">
       <change beforePath="$PROJECT_DIR$/src/Nivell2EX1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Nivell2EX1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Nivell2EX1/PuntuacioComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Nivell2EX1/PuntuacioComparator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677061563958</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Tasca 3 Nivell 2 Exercici 2 complet update amb info">
+      <created>1677061885612</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677061885612</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -129,7 +135,8 @@
     <MESSAGE value="Tasca 3 Nivell 2 Exercici 1 realitzat" />
     <MESSAGE value="Tasca 3 Nivell 1 Exercici 3" />
     <MESSAGE value="Tasca 3 Nivell 2 Exercici 2 complet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tasca 3 Nivell 2 Exercici 2 complet" />
+    <MESSAGE value="Tasca 3 Nivell 2 Exercici 2 complet update amb info" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tasca 3 Nivell 2 Exercici 2 complet update amb info" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
