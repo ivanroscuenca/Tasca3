@@ -1,1 +1,6 @@
-emma.Puntuació total: 4
+Ivan,1
+Ivan,1
+Juanito,3.
+Ivan,0.
+Ivan,1.
+Ivan Ros Cuenca,2.
